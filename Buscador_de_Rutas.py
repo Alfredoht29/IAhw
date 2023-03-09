@@ -60,12 +60,12 @@ en_pantalla([estado_inicial, objetivo])
 #     # y2= objetivo[j][1]
 #     return math.sqrt(pow(x1-x2,2)+pow(y1-y2,2))
 
-def en_pantalla(lista_estados):
-    for x in lista_estados:
-        if (x==objetivo):
-            print(x)
-        else:
-            print("{} ->".format(x), end = ' ')
+# def en_pantalla(lista_estados):
+#     for x in lista_estados:
+#         if (x==objetivo):
+#             print(x)
+#         else:
+#             print("{} ->".format(x), end = ' ')
 
 # def reconstruye(nodo):
 #     sol=[]
