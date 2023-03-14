@@ -44,7 +44,7 @@ def test_objetivo(estado):
 
 
 
-# esta función recibe como entrada un estaado cualquiera (cualqueir letra del problema Arad Bucarest) y regresa una lista de todos los posible estados a los que puede ir después. Para este problema, los sucesores de cada estado ya se conocen y están guardos en una de las listas de arriba.
+# esta función recibe como entrada un estado cualquiera (cualqueir letra del problema Arad Bucarest) y regresa una lista de todos los posible estados a los que puede ir después. Para este problema, los sucesores de cada estado ya se conocen y están guardos en una de las listas de arriba.
 def funcion_sucesor(estado): 
     i= ciudades.index(estado)
     return vecinos[i]
